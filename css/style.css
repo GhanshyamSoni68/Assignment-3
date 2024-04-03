@@ -1,0 +1,83 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#Calculator {
+  border: 0.25em solid pink;
+  padding: 20px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 19% auto;
+  box-shadow: 4px 4px 11px 6px #eda4b1;
+
+}
+#changecalc {
+  border: 0.25em solid pink;
+  padding: 20px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 19% auto;
+  box-shadow: 4px 4px 11px 6px #eda4b1;
+
+}
+#JsForm {
+  border: 0.25em solid pink;
+  padding: 20px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 15% auto;
+  box-shadow: 4px 4px 11px 6px #eda4b1;
+
+}
+
+#Calculator h1 {
+  color: blue;
+  margin-bottom: 10px;
+}
+
+#Calculator p {
+  margin-bottom: 10px;
+}
+
+#Calculator form {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+#changecalc form {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    justify-items: end;
+}
+#JsForm form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+#Calculator form label {
+  text-align: right;
+}
+
+.d-flex {
+  display: flex;
+}
+
+#calculate-change{
+    margin: 0px -94px 0px 22px;
+}
+#calculate-tax{
+    margin: 0px -94px 0px 22px;
+}
+
+.justify-between{
+  justify-content: space-between;
+}

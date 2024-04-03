@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Income Tax Calculator</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div id="changecalc">
+        <h1>Income Tax Calculator</h1>
+      <form>
+        <div class="d-flex">
+          <div>
+            <label for="taxable-income">Enter taxable income:</label>
+            <input type="text" id="taxable-income" placeholder="0.00" />
+          </div>
+          <button type="button" id="calculate-tax">Calculate</button>
+        </div>
+        <div class="result-container">
+          <label for="income-tax">Income tax owed:</label>
+          <input type="text" id="income-tax" readonly />
+        </div>
+      </form>
+
+      <p>&copy;GhanshyamSoniN01649372-2024</p>
+    </div>
+    <script src="../js/itax.js"></script>
+  </body>
+</html>
